@@ -46,7 +46,7 @@ const system = createSystem(defaultConfig, {
   },
 })
 
-export default function Providers({ children }) {
+export default function Provider({ children }) {
   return (
     <ChakraProvider value={system}>
       {children}
